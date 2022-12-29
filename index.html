@@ -7,7 +7,7 @@
     <title>Digital Culture</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="shortcut icon" href="img/dcicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/dcicon.png" type="icon digital culture" />
     <meta
       name="description"
       content="Somos una Agencia de Marketing, Branding y Desarrollo Web. Nos apasiona el mundo del diseño, la tecnología y la creación de nuevas Start-ups."
@@ -16,58 +16,145 @@
       name="keywords"
       content="Agencia de Marketing, Marketing, marketing digital, SEO, SEM, publicidad, advertising"
     />
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="vendor/boxicons/css/boxicons.css">
+    <link rel="stylesheet" href="vendor/glightbox/css/glightbox.min.css">
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
   </head>
   <body>
-    <header class="site-header inicio">
-      <div class="contenedor contenido-header">
-        <div class="barra">
-          <a href="index.html" class="logo">
-            <img src="img/dcicon.png" alt="Logo de Digital Culture" />
+    <header id="header">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <a href="index.html" class="d-flex">
+            <img src="img/dcicon.png" alt="logo Digital culture" class="img-fluid">
+            <h1>Digital Culture</h1>
           </a>
-          <nav id="navegacion" class="navegacion">
-            <a href="#">Sobre Nosotros</a>
-            <a href="#">Caracteristicas</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Equipo</a>
-            <a href="#" class="btn"><button>!Contactanos!</button></a>
-          </nav>
         </div>
+  
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto" href="#">Sobre Nosotros</a></li>
+            <li class="dropdown"><a href="#"><span>Servicios</span> <i
+                  class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li class="dropdown"><a href="#">Marketing <i
+                      class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Plan de Marketing</a></li>
+                    <li><a href="#">SEM</a></li>
+                    <li><a href="#">SEO</a></li>
+                    <li><a href="#">Gestión de Redes Sociales</a></li>
+                    <li><a href="#">Video</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="#">Branding<i
+                      class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Identidad Corporativa</a></li>
+                    <li><a href="#">Logo</a></li>
+                    <li><a href="#">Flyers y Banners</a></li>
+                    <li><a href="#">Dípticos y Trípticos</a></li>
+                    <li><a href="#">Catálogo</a></li>
+                    <li><a href="#">Ploteados (Vehiculos y Locales)</a></li>
+                    <li><a href="#">Merchandising</a></li>
+                    <li><a href="#">Packaging</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="#">Desarrollo y
+                      Programación<i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Landing Page</a></li>
+                    <li><a href="#">Página Web
+                        Corporativa</a></li>
+                    <li><a href="#">Tienda Digital
+                        Simple</a></li>
+                    <li><a href="#">Tienda Digital Plus+</a>
+                    </li>
+                    <li><a href="#">Proyectos a medida</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a class="nav-link scrollto" href="#">Características</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#">Portfolio</a>
+            </li>
+            <li><a class="nav-link scrollto" href="#">Equipo</a></li>
+            <li><a class="getstarted scrollto" href="#">¡Contactános!</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <img src="img/cart-icon.svg" alt="Carrito de compras" class="cart-icon">
       </div>
     </header>
 
     <main>
       <section id="hero">
-        <div class="hero-info">
-          <h1>Llevá tu Marca al siguiente Nivel</h1>
-          <p>
-            En Digital Culture creamos una Solución para cada una de tus
-            Necesidades. Nuestros servicios cuentan con garantía de conformidad,
-            100% asegurada y una atención Completamente Personalizada.
-          <p>
-          <p>
-            <a href="">¡Comencémos!</a>
-          </p>
-        </div>
-
-        <div class="hero-img">
-          <img src="/img/hero-img.png" alt="marketing en redes sociales" />
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class=" col-lg-6 py-5 py-lg-0 order-2 order-lg-1" data-aos="fade-right">
+              <h1>Llevá tu Marca al siguiente Nivel</h1>
+              <h2>En <B>Digital Culture</B> creamos una Solución para cada una de tus Necesidades. Nuestros servicios
+                cuentan con garantía de conformidad, 100% asegurada y una atención <b>Completamente Personalizada</b>.</h2>
+              <a href="#" class="btn-get-started scrollto">¡Comencémos!</a>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
+              <img src="img/hero-img.png" class="img-fluid" alt="">
+            </div>
+          </div>
         </div>
       </section>
-
-      <!--Sobre nosotros-->
-      <section id="about">
-        <div class="imga">
-          <img src="/img/about.jpg" alt="Sobre Digital Culture" />
+      <section id="about" class="about section-bg">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="image col-xl-5"></div>
+            <div class="col-xl-7">
+              <div class="content d-flex flex-column justify-content-center ps-0 ps-xl-4">
+                <h3 data-aos="fade-in" data-aos-delay="100">Sobre Nosotros</h3>
+                <p data-aos="fade-in">
+                  Somos una Agencia de Marketing, Branding y Desarrollo Web. Nos apasiona el mundo del diseño, la
+                  tecnología y la creación de nuevas Start-ups.
+                </p>
+                <div class="row gy-4 mt-3">
+                  <div class="col-md-6 icon-box" data-aos="fade-up">
+                    <i class="bx bx-user-pin"></i>
+                    <h4>Adquisición de Clientes</h4>
+                    <p>Sin visitantes no hay ventas.
+                      ¡Atraé más y mejores clientes!</p>
+                  </div>
+                  <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                    <i class="bx bx-badge-check"></i>
+                    <h4>Conversión de Ventas</h4>
+                    <p>No todos los visitantes de tu tienda
+                      terminan comprando.
+                      ¡Concretá más ventas!
+                    </p>
+                  </div>
+                  <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                    <i class="bx bx-happy-beaming"></i>
+                    <h4>Atención al cliente</h4>
+                    <p>Estar disponible cuando tus clientes lo necesitan es tan importante como vender.
+                      ¡Mejorá tu servicio de atención!</p>
+                  </div>
+                  <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                    <i class="bx bx-receipt"></i>
+                    <h4>Análisis y gestión del negocio</h4>
+                    <p>Tener la información sobre lo que pasa en tu tienda te ayudará a tomar mejores decisiones.
+                      ¡Optimizá tu negocio!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="about-info">
-          <h2>Sobre Nosotros</h2>
-          <p>
-            Somos una Agencia de Marketing, Branding y Desarrollo Web. Nos
-            apasiona el mundo del diseño, la tecnología y la creación de nuevas
-            Start-ups.
-          </p>
-        </div>
-      </section>
+      </section>  
     </main>
+
+
+
+
+
+
   </body>
 </html>
