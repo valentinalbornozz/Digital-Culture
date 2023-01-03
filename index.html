@@ -32,13 +32,17 @@
       </div>
 
       <nav id="navbar" class="navbar">
-        <ul>
+        <label for="menu-toggle" class="menu-label d-flex align-items-center justify-content-between">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="menu-toggle" />
+        <ul class="navbar-list">
           <li><a class="nav-link scrollto" href="#">Sobre Nosotros</a></li>
           <li class="dropdown">
-            <a href="#">Servicios<i class="bi bi-chevron-down"></i></a>
+            <a class="nav-link scrollto" href="#">Servicios<i class="bi bi-chevron-down"></i></a>
             <ul>
               <li class="dropdown">
-                <a href="#">Marketing <i class="bi bi-chevron-right"></i></a>
+                <a  href="#">Marketing <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#">Plan de Marketing</a></li>
                   <li><a href="#">SEM</a></li>
@@ -56,7 +60,7 @@
                   <li><a href="#">Dípticos y Trípticos</a></li>
                   <li><a href="#">Catálogo</a></li>
                   <li><a href="#">Ploteados (Vehiculos y Locales)</a></li>
-                  <li><a href="#">Merchandising</a></li>
+                  <li><a href="#">Merchandising</></li>
                   <li><a href="#">Packaging</a></li>
                 </ul>
               </li>
@@ -79,9 +83,8 @@
           <li><a class="nav-link scrollto" href="#">Equipo</a></li>
           <li><a class="getstarted scrollto" href="#">¡Contactános!</a></li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+        <img src="img/cart-icon.svg" alt="Carrito de compras" class="cart-icon" />
       </nav>
-      <img src="img/cart-icon.svg" alt="Carrito de compras" class="cart-icon" />
     </div>
   </header>
 
@@ -172,6 +175,8 @@
   <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/9dc4a91443.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
