@@ -425,12 +425,12 @@ img {
     color: white;
     font-size: 25px;
     font-weight: 600;
+
   }
   #menu-toggle:checked + .navbar-list {
     display: flex;
   }
   .navbar-list {
-    color: white;
     font-size: 28px;
     cursor: pointer;
     transition: 0.5s;
@@ -448,7 +448,7 @@ img {
     padding: 45px 30px;
     gap: 25px;
     z-index: 2;
-    background-color: white;
+    clip-path: circle(150% at top left);
   } 
 }
 
