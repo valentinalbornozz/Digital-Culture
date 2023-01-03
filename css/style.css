@@ -417,11 +417,16 @@ img {
     display: none;
     padding: 10px;
   }
+  .menu-label {
+    display: flex;
+    order: 2;
+    cursor: pointer;
+  }
   .menu-label i {
     display: flex;
     cursor: pointer;
     height: 21px;
-    width: 30px;
+    width: 21px;
     color: white;
     font-size: 25px;
     font-weight: 600;
@@ -432,7 +437,6 @@ img {
   }
   .navbar-list {
     font-size: 28px;
-    cursor: pointer;
     transition: 0.5s;
     position: fixed;
     right: 5%;
@@ -450,7 +454,6 @@ img {
     z-index: 2;
   } 
 }
-
 
 /* Hero Section*/
 #hero {
