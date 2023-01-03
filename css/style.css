@@ -448,7 +448,6 @@ img {
     padding: 45px 30px;
     gap: 25px;
     z-index: 2;
-    clip-path: circle(150% at top left);
   } 
 }
 
