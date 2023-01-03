@@ -215,13 +215,6 @@ img {
 .navbar .dropdown ul li:hover>a {
   color: #308df3;
 }
-
-.navbar .dropdown:hover>ul {
-  opacity: 1;
-  top: 100%;
-  visibility: visible;
-}
-
 .navbar .dropdown ul {
   top: 0;
   left: calc(100% - 30px);
@@ -244,15 +237,15 @@ img {
     left: -100%;
   }
 }
-.navbar .dropdown:hover>ul {
+  .navbar .dropdown:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
-}
-.navbar-mobile .dropdown>.dropdown-active {
+  }
+  .navbar-mobile .dropdown>.dropdown-active {
   display: block;
-}
-.navbar-mobile .dropdown ul {
+  }
+  .navbar-mobile .dropdown ul {
   position: static;
   display: none;
   margin: 10px 20px;
@@ -263,9 +256,6 @@ img {
   background: #fff;
   box-shadow: 0px 0px 30px rgb(127 137 161 / 25%);
 }
-
-
-
 /* Menu Mobile*/
 @media (max-width: 1200px) {
 
@@ -352,16 +342,6 @@ img {
     left: 100%;
     visibility: visible;
   }
-  
-  @media (max-width: 1366px) {
-    .navbar .dropdown .dropdown ul {
-      left: -90%;
-    }
-  
-    .navbar .dropdown .dropdown:hover>ul {
-      left: -100%;
-    }
-  }
   .navbar .dropdown:hover>ul {
     opacity: 1;
     top: 100%;
@@ -383,8 +363,6 @@ img {
   }
 
 }
-
-/* Carrito de compras*/
 .cart-icon {
   font-weight: 600;
   border-radius: 10px;
@@ -397,8 +375,6 @@ img {
   justify-items: center;
   align-items: center;
 }
-
-/*MENU HAMBURGUESA**/
 #menu-toggle,
 #cart-toggle,
 .menu-label i {
