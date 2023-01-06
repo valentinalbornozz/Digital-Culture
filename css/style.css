@@ -53,22 +53,11 @@ img {
 /*Header*/
 #header {
   z-index: 997;
-  transition: all 0.5s;
-  padding: 16px 0;
+  padding: 10px 0;
   background: #213b52;
   transition: all 0.5s ease-in-out;
-}
-
-#header.header-scrolled {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1030;
-  background: #213b52ea;
-  backdrop-filter: blur(5px);
-  padding: 10px 10px;
-  box-shadow: 0px 0px 15px #213b52;
+  width: 100%;
 }
 
 #header .logo a {
@@ -293,8 +282,9 @@ img {
     border: 0;
   }
 }
+/*Carrito*/
 .cart-icon {
-  font-weight: 600;
+  font-size: 20px;
   border-radius: 10px;
   height: 30px;
   padding: 5px 8px;
@@ -304,14 +294,34 @@ img {
   display: flex;
   justify-items: center;
   align-items: center;
+  transition: all 0.2s ease-out;
 }
-
+.cart-icon:hover {
+  color: #308df3;
+  border-color: white;
+  transition: all 0.2s ease-in;
+}
+.overlay {
+  position: fixed;
+  top: 65px;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  display: none;
+}
 #menu-toggle,
 #cart-toggle,
 .menu-label i {
   display: none;
 }
-
+#menu-toggle:checked ~ .overlay {
+  display: block;
+}
 /* Menu Mobile*/
 @media (max-width: 1200px) {
   .navbar-list a,
@@ -370,7 +380,7 @@ img {
     z-index: 2;
   }
   .cart-icon {
-    height: 33px;
+    height: 27px;
     margin-right: 0rem;
     margin-top: 4px;
   }

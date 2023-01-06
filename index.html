@@ -1,182 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Digital Culture</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/normalize.css" />
-  <link rel="shortcut icon" href="img/dcicon.png" type="icon digital culture" />
-  <meta name="description"
-    content="Somos una Agencia de Marketing, Branding y Desarrollo Web. Nos apasiona el mundo del diseño, la tecnología y la creación de nuevas Start-ups." />
-  <meta name="keywords"
-    content="Agencia de Marketing, Marketing, marketing digital, SEO, SEM, publicidad, advertising" />
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Culture</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      rel="shortcut icon"
+      href="img/dcicon.png"
+      type="icon digital culture"
+    />
+    <meta
+      name="description"
+      content="Somos una Agencia de Marketing, Branding y Desarrollo Web. Nos apasiona el mundo del diseño, la tecnología y la creación de nuevas Start-ups."
+    />
+    <meta
+      name="keywords"
+      content="Agencia de Marketing, Marketing, marketing digital, SEO, SEM, publicidad, advertising"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
 
-<body data-aos-easing="ease-in-out">
-  <header id="header">
-    <div class="container d-flex align-items-center justify-content-between">
-      <div class="logo">
-        <a href="index.html" class="d-flex">
-          <img src="img/dcicon.png" alt="logo Digital culture" class="img-fluid" />
-          <h1>Digital Culture</h1>
-        </a>
+  <body data-aos-easing="ease-in-out">
+    <header id="header">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <a href="index.html" class="d-flex">
+            <img
+              src="img/dcicon.png"
+              alt="logo Digital culture"
+              class="img-fluid"
+            />
+            <h1>Digital Culture</h1>
+          </a>
+        </div>
+
+        <nav id="navbar" class="navbar">
+          <label
+            for="menu-toggle"
+            class="menu-label d-flex align-items-center justify-content-between"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <input type="checkbox" id="menu-toggle" />
+          <ul class="navbar-list">
+            <li><a class="nav-link scrollto" href="#">Sobre Nosotros</a></li>
+            <li class="dropdown">
+              <a class="nav-link scrollto" href="#"
+                >Servicios<i class="bi bi-chevron-down"></i
+              ></a>
+              <ul>
+                <li class="dropdown">
+                  <a href="#">Marketing <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Plan de Marketing</a></li>
+                    <li><a href="#">SEM</a></li>
+                    <li><a href="#">SEO</a></li>
+                    <li><a href="#">Gestión de Redes Sociales</a></li>
+                    <li><a href="#">Video</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#">Branding<i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Identidad Corporativa</a></li>
+                    <li><a href="#">Logo</a></li>
+                    <li><a href="#">Flyers y Banners</a></li>
+                    <li><a href="#">Dípticos y Trípticos</a></li>
+                    <li><a href="#">Catálogo</a></li>
+                    <li><a href="#">Ploteados (Vehiculos y Locales)</a></li>
+                    <li><a href="#">Merchandising</a></li>
+                    <li><a href="#">Packaging</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#"
+                    >Desarrollo y Programación<i class="bi bi-chevron-right"></i
+                  ></a>
+                  <ul>
+                    <li><a href="#">Landing Page</a></li>
+                    <li><a href="#">Página Web Corporativa</a></li>
+                    <li><a href="#">Tienda Digital Simple</a></li>
+                    <li><a href="#">Tienda Digital Plus+</a></li>
+                    <li><a href="#">Proyectos a medida</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a class="nav-link scrollto" href="#">Características</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#">Portfolio</a>
+            </li>
+            <li><a class="nav-link scrollto" href="#">Equipo</a></li>
+            <li><a class="getstarted scrollto" href="#">¡Contactános!</a></li>
+          </ul>
+          <label for="cart-toggle" class="cart-label">
+            <i class="fa-solid fa-cart-shopping cart-icon"></i>
+          </label>
+      <div class="overlay"></div>
+
+        </nav>
       </div>
+    </header>
 
-      <nav id="navbar" class="navbar">
-        <label for="menu-toggle" class="menu-label d-flex align-items-center justify-content-between">
-          <i class="fa-solid fa-bars"></i>
-        </label>
-        <input type="checkbox" id="menu-toggle" />
-        <ul class="navbar-list">
-          <li><a class="nav-link scrollto" href="#">Sobre Nosotros</a></li>
-          <li class="dropdown">
-            <a class="nav-link scrollto" href="#">Servicios<i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li class="dropdown">
-                <a  href="#">Marketing <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Plan de Marketing</a></li>
-                  <li><a href="#">SEM</a></li>
-                  <li><a href="#">SEO</a></li>
-                  <li><a href="#">Gestión de Redes Sociales</a></li>
-                  <li><a href="#">Video</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="#">Branding<i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Identidad Corporativa</a></li>
-                  <li><a href="#">Logo</a></li>
-                  <li><a href="#">Flyers y Banners</a></li>
-                  <li><a href="#">Dípticos y Trípticos</a></li>
-                  <li><a href="#">Catálogo</a></li>
-                  <li><a href="#">Ploteados (Vehiculos y Locales)</a></li>
-                  <li><a href="#">Merchandising</a></li>
-                  <li><a href="#">Packaging</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="#">Desarrollo y Programación<i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Landing Page</a></li>
-                  <li><a href="#">Página Web Corporativa</a></li>
-                  <li><a href="#">Tienda Digital Simple</a></li>
-                  <li><a href="#">Tienda Digital Plus+</a></li>
-                  <li><a href="#">Proyectos a medida</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#">Características</a></li>
-          <li>
-            <a class="nav-link scrollto" href="#">Portfolio</a>
-          </li>
-          <li><a class="nav-link scrollto" href="#">Equipo</a></li>
-          <li><a class="getstarted scrollto" href="#">¡Contactános!</a></li>
-        </ul>
-        <img src="img/cart-icon.svg" alt="Carrito de compras" class="cart-icon" />
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section id="hero">
-      <div class="container">
-        <div class="row d-flex align-items-center">
-          <div class="col-lg-6 py-5 py-lg-0 order-2 order-lg-1" data-aos="fade-right">
-            <h1>Llevá tu Marca al siguiente Nivel</h1>
-            <h2>
-              En <b>Digital Culture</b> creamos una Solución para cada una de
-              tus Necesidades. Nuestros servicios cuentan con garantía de
-              conformidad, 100% asegurada y una atención
-              <b>Completamente Personalizada</b>.
-            </h2>
-            <a href="#" class="btn-get-started scrollto">¡Comencémos!</a>
-          </div>
-          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
-            <img src="img/hero-img.png" class="img-fluid" alt="" />
+    <main>
+      <section id="hero">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div
+              class="col-lg-6 py-5 py-lg-0 order-2 order-lg-1"
+              data-aos="fade-right"
+            >
+              <h1>Llevá tu Marca al siguiente Nivel</h1>
+              <h2>
+                En <b>Digital Culture</b> creamos una Solución para cada una de
+                tus Necesidades. Nuestros servicios cuentan con garantía de
+                conformidad, 100% asegurada y una atención
+                <b>Completamente Personalizada</b>.
+              </h2>
+              <a href="#" class="btn-get-started scrollto">¡Comencémos!</a>
+            </div>
+            <div
+              class="col-lg-6 order-1 order-lg-2 hero-img"
+              data-aos="fade-left"
+            >
+              <img src="img/hero-img.png" class="img-fluid" alt="" />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section id="about" class="about section-bg">
-      <div class="container">
-        <div class="row gy-4">
-          <div class="image col-xl-5"></div>
-          <div class="col-xl-7">
-            <div class="content d-flex flex-column justify-content-center ps-0 ps-xl-4">
-              <h3 data-aos="fade-in" data-aos-delay="100">Sobre Nosotros</h3>
-              <p data-aos="fade-in">
-                Somos una Agencia de Marketing, Branding y Desarrollo Web. Nos
-                apasiona el mundo del diseño, la tecnología y la creación de
-                nuevas Start-ups.
-              </p>
-              <div class="row gy-4 mt-3">
-                <div class="col-md-6 icon-box" data-aos="fade-up">
-                  <i class="bx bx-user-pin"></i>
-                  <h4>Adquisición de Clientes</h4>
-                  <p>
-                    Sin visitantes no hay ventas. ¡Atraé más y mejores
-                    clientes!
-                  </p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx-badge-check"></i>
-                  <h4>Conversión de Ventas</h4>
-                  <p>
-                    No todos los visitantes de tu tienda terminan comprando.
-                    ¡Concretá más ventas!
-                  </p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bx bx-happy-beaming"></i>
-                  <h4>Atención al cliente</h4>
-                  <p>
-                    Estar disponible cuando tus clientes lo necesitan es tan
-                    importante como vender. ¡Mejorá tu servicio de atención!
-                  </p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bx bx-receipt"></i>
-                  <h4>Análisis y gestión del negocio</h4>
-                  <p>
-                    Tener la información sobre lo que pasa en tu tienda te
-                    ayudará a tomar mejores decisiones. ¡Optimizá tu negocio!
-                  </p>
+      </section>
+      <section id="about" class="about section-bg">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="image col-xl-5"></div>
+            <div class="col-xl-7">
+              <div
+                class="content d-flex flex-column justify-content-center ps-0 ps-xl-4"
+              >
+                <h3 data-aos="fade-in" data-aos-delay="100">Sobre Nosotros</h3>
+                <p data-aos="fade-in">
+                  Somos una Agencia de Marketing, Branding y Desarrollo Web. Nos
+                  apasiona el mundo del diseño, la tecnología y la creación de
+                  nuevas Start-ups.
+                </p>
+                <div class="row gy-4 mt-3">
+                  <div class="col-md-6 icon-box" data-aos="fade-up">
+                    <i class="bx bx-user-pin"></i>
+                    <h4>Adquisición de Clientes</h4>
+                    <p>
+                      Sin visitantes no hay ventas. ¡Atraé más y mejores
+                      clientes!
+                    </p>
+                  </div>
+                  <div
+                    class="col-md-6 icon-box"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <i class="bx bx-badge-check"></i>
+                    <h4>Conversión de Ventas</h4>
+                    <p>
+                      No todos los visitantes de tu tienda terminan comprando.
+                      ¡Concretá más ventas!
+                    </p>
+                  </div>
+                  <div
+                    class="col-md-6 icon-box"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                  >
+                    <i class="bx bx-happy-beaming"></i>
+                    <h4>Atención al cliente</h4>
+                    <p>
+                      Estar disponible cuando tus clientes lo necesitan es tan
+                      importante como vender. ¡Mejorá tu servicio de atención!
+                    </p>
+                  </div>
+                  <div
+                    class="col-md-6 icon-box"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
+                    <i class="bx bx-receipt"></i>
+                    <h4>Análisis y gestión del negocio</h4>
+                    <p>
+                      Tener la información sobre lo que pasa en tu tienda te
+                      ayudará a tomar mejores decisiones. ¡Optimizá tu negocio!
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
+    </main>
 
-
-
-
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js" integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
-  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <script src="https://kit.fontawesome.com/9dc4a91443.js" crossorigin="anonymous"></script>
-
-</body>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js"
+      integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9dc4a91443.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
